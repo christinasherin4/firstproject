@@ -1,0 +1,16 @@
+welcome to coding
+ heartly welc
+ 
+ #include<stdio.h>
+main()
+{
+ int x=5,y=7;
+ int maximum(int x,int y);
+}
+maximum(int x,int y)
+{
+ int z;
+ z=(x>=y)?x:y;
+ printf("\n\nMaximum value = %d",z);
+ return;
+ }
